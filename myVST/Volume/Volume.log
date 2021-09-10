@@ -1,0 +1,7 @@
+﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  Volume.cpp
+  RackAFXDLL.cpp
+  pluginobjects.cpp
+  plugin.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1306,5): error MSB3191: Unable to create directory "C:\Users\willpirkle\AppData\Roaming\RackAFX\PlugIns". Access to the path 'C:\Users\willpirkle\AppData\Roaming\RackAFX\PlugIns' is denied.

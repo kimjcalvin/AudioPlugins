@@ -1,0 +1,6 @@
+﻿  Main.cpp
+  MainComponent.cpp
+  RoofComponent.cpp
+C:\Users\Calvin\Documents\techProjects\VSTPlugins\myVST\guiTest1\Source\Main.cpp(26,36): warning C4100: 'commandLine': unreferenced formal parameter
+C:\Users\Calvin\Documents\techProjects\VSTPlugins\myVST\guiTest1\Source\Main.cpp(48,48): warning C4100: 'commandLine': unreferenced formal parameter
+  guiTest1_App.vcxproj -> C:\Users\Calvin\Documents\techProjects\VSTPlugins\myVST\guiTest1\Builds\VisualStudio2019\x64\Debug\App\guiTest1.exe

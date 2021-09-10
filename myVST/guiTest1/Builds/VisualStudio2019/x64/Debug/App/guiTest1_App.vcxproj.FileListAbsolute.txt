@@ -1,0 +1,2 @@
+C:\Users\Calvin\Documents\techProjects\VSTPlugins\myVST\guiTest1\Builds\VisualStudio2019\x64\Debug\App\guiTest1.exe
+C:\Users\Calvin\Documents\techProjects\VSTPlugins\myVST\guiTest1\Builds\VisualStudio2019\x64\Debug\App\guiTest1.pdb

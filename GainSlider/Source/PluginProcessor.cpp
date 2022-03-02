@@ -134,9 +134,8 @@ void GainSliderAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
     auto totalNumOutputChannels = getTotalNumOutputChannels();
-    // valVolumeAdjust = 0.1;
 
-    // In case we have more outputs than inputs, this code clears any output
+    // In case we have more outputs than inputs, this code clears any osutput
     // channels that didn't contain input data, (because these aren't
     // guaranteed to be empty - they may contain garbage).
     // This is here to avoid people getting screaming feedback
@@ -160,11 +159,6 @@ void GainSliderAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
         // ChannelData is output
         for (int sample = 0; sample < buffer.getNumSamples(); ++sample)
             channelData[sample] = buffer.getSample(channel, sample) * valVolumeAdjust;
-
-
-
-
-        // make channelData = outputData 
         
     }
 }
